@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | P. Thanuja</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-bxRcxz1Zb0vK1yB5Q5k4sTr3cQffpH9Aht6Xn/2ItkJDbvXqCUs02fXUP4L06Ybrnq9l6dj8IKm2oxl4z8Ww0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Photos/logo.webp" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header">
+  <div class="containers">
+    <nav>
+      <img src="Photos/logo.webp" alt="Logo" class="logo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-containers">
+      <div class="header-lefts">
+        <div class="header-texts">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>P. Thanuja</span> from India.</h1>
+        </div>
+      </div>
+
+      <div class="header-rights">
+        <img src="Photos/pic.jpg" alt="Pinninti Thanuja" class="hero-image">
+      </div>
+    </div>
+  </div>
+</header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Photos/a.jfif" alt="Thanuja Profile" class="profile-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I’m an MCA student passionate about web development and backend technologies.
+                        I enjoy building creative, functional web solutions and continuously improving my coding skills.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">  Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">  Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span> Crafting responsive and semantic web pages using HTML, CSS, JavaScript, and Git.</li>
+                            <li><span>CSS</span> Designing visually appealing and user-friendly layouts using HTML, CSS, JavaScript, and Git.</li>
+                            <li><span>JavaScript</span> Developing interactive and dynamic web applications using JavaScript.</li>
+                            <li><span>Git</span> Managing and collaborating on projects efficiently with Git.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2025 - Aug 2025</span><br>Java Developer at Tech Hack Company</li>
+                            <li><span>Nov 2024 - Jan 2025</span><br>Software Developer at Salesforce Company</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2025</span><br>MCA from Avanthi PG College (Post Graduate)</li>
+                            <li><span>2020 - 2023</span><br>B.Sc. MPCs from Government Degree College (Under Graduate)</li>
+                            <li><span>2018 - 2020</span><br>Intermediate from Narayana Junior College</li>
+                            <li><span>2017 - 2018</span><br>SSC from SR Digi School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #ff6600;"></i>
+                <h2>Web Design</h2>
+                <p>I create clean, responsive, and modern website designs that enhance user experience and brand identity.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code" style="color: #ff6600;"></i>
+                <h2>Web Development</h2>
+                <p>Building interactive and efficient web applications using modern technologies like HTML, CSS, and JavaScript.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database" style="color: #ff6600;"></i>
+                <h2>Backend Development</h2>
+                <p>Developing robust backend systems and APIs to handle your application's data securely and efficiently.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="Photos/1.png" alt="Amazon Clone Project">
+        <div class="layer">
+          <h3>Amazon Clone</h3>
+          <p>An e-commerce web app for browsing and purchasing clothes and other products. 
+            Available on the Play Store.</p>
+            <a href="https://github.com/ThanujaPinninti/Amazon-Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Photos/2.png" alt="Digital Clock Project">
+        <div class="layer">
+          <h3>Digital Clock</h3>
+          <p>A simple digital clock that displays the current hours, minutes, and seconds in real-time.</p>
+           <a href="https://github.com/ThanujaPinninti/Digital-Clock"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Photos/3.png" alt="Travel & Tourism Project">
+        <div class="layer">
+          <h3>Travel & Tourism App</h3>
+          <p>A travel and tourism management system to explore and book trips. 
+            Available on the Play Store.</p>
+            <a href="https://github.com/ThanujaPinninti/Travel-Tourism-Management-System"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/ThanujaPinninti" class="btn">See More</a>
+  </div>
+</div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope-open-text" style="color: #ff6600;"></i>pinnintithanuja@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume" style="color: #ff6600;"></i>9876543210</p>
+                    <div class="social-icons">
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ff6600;"></i></a>
+                            <a href="https://www.linkedin.com/in/pinnintithanuja/"><i class="fa-brands fa-linkedin-in" style="color: #ff6600;"></i></a>
+                            <a href="https://x.com/i/flow/login?lang=en"><i class="fa-brands fa-x-twitter" style="color: #ff6600;"></i></i></a>
+                            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp" style="color: #ff6600;"></i></a>
+                        </div>
+                        <a href="Photos/Resume.pdf"  download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright © Thanuja. Made in 2025">
+            <p>copyright </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
